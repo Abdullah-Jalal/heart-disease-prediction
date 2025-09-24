@@ -50,6 +50,7 @@ Decision Tree visualization
 🚀 How to Run
 # Clone the repository
 git clone https://github.com/Abdullah-Jalal/heart-disease-prediction.git
+
 cd heart-disease-prediction
 
 # Install dependencies
