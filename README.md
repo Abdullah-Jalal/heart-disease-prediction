@@ -48,3 +48,20 @@ ROC-AUC vs k (KNN)
 Decision Tree visualization
 
 🚀 How to Run
+# Clone the repository
+git clone https://github.com/Abdullah-Jalal/heart-disease-prediction.git
+cd heart-disease-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook ML_Heart.ipynb
+
+📝 Future Work
+
+Add Random Forest for comparison
+
+Try SVM & XGBoost
+
+Perform hyperparameter tuning for better accuracy
