@@ -75,15 +75,17 @@ Heart Disease dataset from UCI Machine Learning Repository
 
 ---
 
-### 🔧 How to Update Your GitHub README
 
-1. **Edit the README**: Navigate to your repository on GitHub and click on the `README.md` file.
-2. **Update Content**: Click the pencil icon to edit the file.
-3. **Paste the New README**: Replace the existing content with the updated README provided above.
-4. **Commit Changes**: Scroll down to the commit section, add a commit message (e.g., "Update README with project details"), and click "Commit changes".
+---
 
-This will update your GitHub repository's README, providing visitors with a clear overview of your project, its dataset, models implemented, and how to use it.
+✅ **How to update on GitHub:**
 
-Let me know if you'd like any further modifications or additions!
-::contentReference[oaicite:16]{index=16}
- 
+1. Open your repository on GitHub.  
+2. Click on `README.md`.  
+3. Click the pencil icon to edit.  
+4. Replace all the content with the above Markdown.  
+5. Scroll down, add a commit message like `"Update README formatting"`, and click **Commit changes**.  
+
+This will make your README **render correctly with headings, code blocks, and lists**.  
+
+If you want, I can also **add a “Models Implemented” section with Logistic Regression, KNN, Random Forest, and Decision Tree**, so it looks more professional. Do you want me to do that?
