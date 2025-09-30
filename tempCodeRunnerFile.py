@@ -1,1 +1,0 @@
-for sal in emp.Salary
