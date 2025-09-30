@@ -1,68 +1,89 @@
-🫀 Heart Disease Prediction
+# Heart Disease Prediction
 
 This project applies Machine Learning models to predict the presence of heart disease using patient data. The goal is to compare different algorithms, visualize results, and evaluate model performance with multiple metrics.
 
-📊 Dataset
+## Dataset
 
-Heart disease dataset (features: age, sex, chest pain type, blood pressure, cholesterol, etc.)
+The dataset used provides information on various medical parameters associated with heart disease risk factors. Key features include:
 
-Target: Presence (1) or Absence (0) of heart disease
+- **Age**: Patient's age (numeric)
+- **Sex**: Gender of patient (Male/Female)
+- **CP**: Type of chest pain experienced by patient (1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic)
+- **Trestbps**: Resting blood pressure (numeric)
+- **Chol**: Serum cholesterol in mg/dl (numeric)
+- **Fbs**: Fasting blood sugar > 120 mg/dl (1: true, 0: false)
+- **Restecg**: Resting electrocardiographic results (0: normal, 1: ST-T wave abnormality, 2: left ventricular hypertrophy)
+- **Thalach**: Maximum heart rate achieved (numeric)
+- **Exang**: Exercise induced angina (1: yes, 0: no)
+- **Oldpeak**: ST depression induced by exercise relative to rest (numeric)
+- **Slope**: Slope of the peak exercise ST segment (1: upsloping, 2: flat, 3: downsloping)
+- **Ca**: Number of major vessels colored by fluoroscopy (0-3)
+- **Thal**: Thalassemia (3: normal, 6: fixed defect, 7: reversible defect)
 
-⚙️ Models Implemented
-🔹 Logistic Regression
+**Target Variable**: Presence (1) or Absence (0) of heart disease
 
-First baseline model
+## Models Implemented
 
-Evaluated with Accuracy, Precision, Recall, F1-score, and ROC-AUC
+### Logistic Regression
+- First baseline model
+- Evaluated with Accuracy, Precision, Recall, F1-score, and ROC-AUC
 
-🔹 K-Nearest Neighbors (KNN)
+### K-Nearest Neighbors (KNN)
+- Tested multiple values of k
+- Plotted Accuracy vs k
+- Plotted AUC vs k
 
-Tested multiple values of k
+### Random Forest Classifier
+- Evaluated with Accuracy, Precision, Recall, F1-score, and ROC-AUC
 
-Plotted Accuracy vs k
+### Decision Tree Classifier
+- Evaluated with Accuracy, Precision, Recall, F1-score, and ROC-AUC
 
-Plotted AUC vs k
+## Requirements
 
-Compared best k=7 against Logistic Regression
+To run this project, you'll need to install the following Python packages:
 
-🔹 Decision Tree Classifier
-
-Trained and visualized decision tree splits using sklearn.tree.plot_tree
-
-Evaluated with confusion matrix and classification report
-
-📈 Model Comparison
-Model	Accuracy	Precision	Recall	F1	ROC-AUC
-Logistic Regression	✅	✅	✅	✅	✅
-KNN (k=7)	✅	✅	✅	✅	✅
-Decision Tree	✅	✅	✅	✅	✅
-
-📊 Visualizations
-
-Confusion Matrix heatmaps
-
-Accuracy vs k (KNN)
-
-ROC-AUC vs k (KNN)
-
-Decision Tree visualization
-
-🚀 How to Run
-# Clone the repository
-git clone https://github.com/Abdullah-Jalal/heart-disease-prediction.git
-
-cd heart-disease-prediction
-
-# Install dependencies
+```bash
 pip install -r requirements.txt
 
-# Run the notebook
+1.Usage
+
+Clone the repository
+git clone https://github.com/Abdullah-Jalal/heart-disease-prediction.git
+cd heart-disease-prediction
+
+2.Install dependencies:
+pip install -r requirements.txt
+
+3.Run the Jupyter notebook:
 jupyter notebook ML_Heart.ipynb
 
-📝 Future Work
+llow the instructions within the notebook to load the dataset, train models, and evaluate performance.
 
-Add Random Forest for comparison
+Contributing
 
-Try SVM & XGBoost
+Feel free to fork this repository, submit issues, or create pull requests. Contributions are welcome!
 
-Perform hyperparameter tuning for better accuracy
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+
+Heart Disease dataset from UCI Machine Learning Repository
+
+
+---
+
+### 🔧 How to Update Your GitHub README
+
+1. **Edit the README**: Navigate to your repository on GitHub and click on the `README.md` file.
+2. **Update Content**: Click the pencil icon to edit the file.
+3. **Paste the New README**: Replace the existing content with the updated README provided above.
+4. **Commit Changes**: Scroll down to the commit section, add a commit message (e.g., "Update README with project details"), and click "Commit changes".
+
+This will update your GitHub repository's README, providing visitors with a clear overview of your project, its dataset, models implemented, and how to use it.
+
+Let me know if you'd like any further modifications or additions!
+::contentReference[oaicite:16]{index=16}
+ 
